@@ -39,8 +39,7 @@ let products = [
     {
         name: 'Spinach',
         category: 'vegetables'
-    },
-    ];
+    }];
     
     function getItems(category) {
     if (category) {
@@ -54,6 +53,6 @@ let products = [
     
     GreensKiosk = {
     getItems: getItems
-    };
+    }
     
     module.exports = GreensKiosk;
